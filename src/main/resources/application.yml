@@ -28,7 +28,3 @@ logging:
             mapper: debug
 server:
   port: 8082
-
-PRODUCT:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
